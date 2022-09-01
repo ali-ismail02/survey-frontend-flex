@@ -7,7 +7,7 @@ body{
     background-color: rgb(143, 143, 143);
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 700px;
 }
 .title{
     color: rgb(124, 0, 0);
@@ -30,7 +30,17 @@ body{
 .row-div{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+}
+.row-div-Q{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.row-div-Q-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .row-div0{
     display: flex;
@@ -42,26 +52,21 @@ body{
 }
 .div50-top-right{
     margin-top: 20px;
-    width: 40%;
-    margin-left: 10%;
+    width: 280px;
+    margin-left: 60px;
     background-color: rgb(209, 209, 209);
     font-size: 13px;
 }
 .div50-top-left{
     margin-top: 20px;
-    width: 40%;
-    margin-left: 10%;
+    width: 280px;
+    margin-left: 60px;
     background-color: rgb(209, 209, 209);
     font-size: 13px;
 }
-.div50-left{
-    flex-basis: 40%;
-    margin-left: 10%;
-    background-color: rgb(209, 209, 209);
-}
-.div50-right{
-    flex-basis: 40%;
-    margin-left: 10%;
+.div50{
+    width: 280px;
+    margin-left: 60px;
     background-color: rgb(209, 209, 209);
 }
 .date-textbox{
@@ -77,7 +82,7 @@ body{
     margin-block-start: 0em;
 }
 .mar-left10{
-    padding-left: 10%;
+    padding-left: 60px;
 }
 .wid100{
     width: 100%;

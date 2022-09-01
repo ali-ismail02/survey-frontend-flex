@@ -1,14 +1,17 @@
+/* Main bodies ------------------------------------------------ */
 body{
     background-color: rgb(143, 143, 143);
     display: flex;
     justify-content: center;
 }
+
 .main{
     background-color: rgb(143, 143, 143);
     display: flex;
     flex-direction: column;
     width: 700px;
 }
+
 .title{
     color: rgb(124, 0, 0);
     text-align: center;
@@ -19,6 +22,7 @@ body{
     align-items: center;
     width: 100%;
 }
+
 .form-div{
     flex-basis: 100%;
     display: flex;
@@ -27,48 +31,55 @@ body{
     padding-bottom: 20px;
     margin-bottom: 45px;
 }
+
+/* ROWS ---------------------------------------------------------- */
+
 .row-div{
     display: flex;
     flex-wrap: wrap;
 }
-.row-div-Q{
+
+.row-div-question{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
     margin-top: 40px;
 }
-.row-div-Q-1{
+
+.row-div-question-1{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
-.row-div0{
+
+.row-div-note{
     display: flex;
     flex-wrap: wrap;
 }
+
 .row-div-top{
     display: flex;
     flex-wrap: wrap;
 }
-.div50-top-right{
+
+/* Side by side divs ------------------------------------------------ */
+
+.div50-top{
     margin-top: 20px;
     width: 280px;
     margin-left: 60px;
     background-color: rgb(209, 209, 209);
     font-size: 13px;
 }
-.div50-top-left{
-    margin-top: 20px;
-    width: 280px;
-    margin-left: 60px;
-    background-color: rgb(209, 209, 209);
-    font-size: 13px;
-}
+
 .div50{
     width: 280px;
     margin-left: 60px;
     background-color: rgb(209, 209, 209);
 }
+
+/* Inputs ---------------------------------------------------------- */
+
 .date-textbox{
     width: 80%;
     height: 30px;
@@ -76,26 +87,7 @@ body{
     font-family: sans-serif;
     margin-top: 16px;
 }
-.note{
-    color: #575757;
-    padding-bottom: 40px;
-    margin-block-start: 0em;
-}
-.mar-left10{
-    padding-left: 60px;
-}
-.wid100{
-    width: 100%;
-}
-.red{
-    color: rgb(177, 2, 2);
-    font-family: sans-serif;
-    line-height: 27px;
-    font-size: 13px;
-}
-.mar-bot100px{
-    margin-bottom: 100px;
-}
+
 .btn{
     width: 20%;
     margin-left: 40%;
@@ -107,6 +99,7 @@ body{
     background-image: linear-gradient( #3d3d3d , #575757);
     color: white;
 }
+
 .txtarea{
     width: 80%;
     height: 200px;
@@ -116,9 +109,39 @@ body{
     padding: 10px;
     margin-left: 10%;
 }
+
+/* Fonts ------------------------------------------------------------ */
+
+.note{
+    color: #575757;
+    padding-bottom: 40px;
+    margin-block-start: 0em;
+}
+
 .label-font{
     font-size: 16px;
     color: rgb(124, 0, 0);
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.red{
+    color: rgb(177, 2, 2);
+    font-family: sans-serif;
+    line-height: 27px;
+    font-size: 13px;
+}
+
+/* Padding and margins ----------------------------------------------- */
+
+.pad-left10{
+    padding-left: 60px;
+}
+
+.wid100{
+    width: 100%;
+}
+
+.mar-bot100px{
+    margin-bottom: 100px;
 }
